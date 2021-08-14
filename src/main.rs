@@ -34,7 +34,7 @@ fn askMe() {
             space();
             println!("Error: You did not enter any input.");
             println!("The program has crashed.");
-            println!("This is a known error and will be fixed in a later update.");
+            println!("This is a known error and will handled in a future update.");
             space();
             quit::with_code(0);
         } else {
@@ -51,6 +51,15 @@ fn askMe() {
     if vecLength == 0 {
         space();
         println!("Error: You did not enter any input.");
+        println!("The program has crashed.");
+        println!("This is a known error and will be handled in a future update.");
+        space();
+        quit::with_code(0);
+    }
+
+    if vecLength == 1 {
+        space();
+        println!("Error: Only 1 option to choose from.");
         println!("The program has crashed.");
         println!("This is a known error and will be handled in a future update.");
         space();
