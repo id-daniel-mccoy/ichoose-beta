@@ -24,6 +24,12 @@ Planned Updates:
 * 3.) Some kind of frontend.
 * 4.) A list loading/saving system to select from pre-existing lists.
 
+Known Issues:
+
+* 1.) If you only enter 2 options only the first gets selected. This will be addressed by changing the source of the random number to an independently generated one instead of using the thread based generator.
+* 2.) The program currently crashes if you type "done" before entering input for the list or if you enter blank input. This is being handled currently by minor input validation to display the error but it needs further action. This will be addressed by better input validation and wrapping the program in a loop.
+* 3.) If you only enter 1 option and type "done" the program currently crashes with an unhandled thread panick. This will be addressed by adding input validation and wrapping the program in a loop.
+
 Disclaimer:
 
 At the time of creation this program was one of my first written in Rust. Therefore, this program is subject to errors, inefficiencies, and experimental changes throughout development.
