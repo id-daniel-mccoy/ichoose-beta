@@ -28,7 +28,7 @@ Known Issues:
 
 * 1.) If you only enter 2 options only the first gets selected. This will be addressed by changing the source of the random number to an independently generated one instead of using the thread based generator.
 * 2.) The program currently crashes if you type "done" before entering input for the list or if you enter blank input. This is being handled currently by minor input validation to display the error but it needs further action. This will be addressed by adding better input validation and wrapping the program in a loop.
-* 3.) The program currently crashes if you type "done" whilst only entering one valid option. This is being handled currently by minor input validation to display the error but it needs further action. This will be addressed by adding better input validation and wrapping the program in a loop.
+* 3.) The program currently crashes if you type "done" whilst only entering one valid option. This is being handled currently by minor input validation to display the error but it needs further action. This will be addressed by adding better input validation and wrapping the program in a loop. 
 
 Disclaimer:
 
