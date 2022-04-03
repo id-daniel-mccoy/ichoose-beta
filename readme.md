@@ -1,9 +1,7 @@
 # iChoose-Beta 0.1.2
 ## GitHub Author: cp-daniel-mccoy
 
-iChoose is a simple program that randomly selects from a list of options for you.
-
-This program is written in rust and is used to demonstrate basic rust functionality including user input, basic crate usage, loops, vectors, and other basics.
+iChoose is a simple program written in rust that uses a randomizer to select an option from a list for you.
 
 To use this program:
 > **cargo run**
@@ -32,7 +30,7 @@ Known Issues:
 
 Disclaimer:
 
-At the time of creation this program was one of my first written in Rust. Therefore, this program is subject to errors, inefficiencies, and experimental changes throughout development.
+This program is used for progressive programming practice, as are all of my open projects. Therefore, this program is subject to errors, inefficiencies, and experimental changes throughout development.
 
 I hope you enjoy using or modifying this, or that you learned or valued from it in some way or another.
 
